@@ -7,4 +7,4 @@ print(r)
 #print(r.text)
 
 soup = BeautifulSoup(r.text,"lxml")
-print(soup)
+print(soup.div)
